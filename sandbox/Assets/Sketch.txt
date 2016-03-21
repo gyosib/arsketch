@@ -1,0 +1,10 @@
+Subs,num,marker,1
+Cont,if,eq,@2,"found"
+Cont,if,eq,@3,"found"
+Func,add,#marker,"mycube"
+Conf,endif
+Conf,endif
+Subs,num,num,1/2+1+1/2~2*2
+Subs,str,str,"Hello"+"World"
+Func,print,num
+Func,print,str
